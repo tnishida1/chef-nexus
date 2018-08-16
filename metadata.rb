@@ -6,8 +6,7 @@ description 'Installs/Configures chef-nexus'
 long_description 'Installs/Configures chef-nexus'
 version '0.1.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
-depends 'nexus3'
-depends 'ark'
+depends 'nexus'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
